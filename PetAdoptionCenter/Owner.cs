@@ -2,10 +2,9 @@
 {
     internal class Owner
     {
-        private string _name;
-        private int _totalOwnedPets = 0;
-        public int TotalOwnedPets { get => _totalOwnedPets; set => _totalOwnedPets = value; }
-        public string Name { get => _name; set => _name = value; }
+
+        public int TotalOwnedPets { get; set; }
+        public string Name { get; set; }
 
         public Owner(string name)
         {
